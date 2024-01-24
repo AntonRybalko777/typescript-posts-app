@@ -9,7 +9,7 @@ import { GlobalStyle } from './GlobalStyles';
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/ts-app-test">
+      <BrowserRouter basename="/typescript-posts-app">
         <App />
         <GlobalStyle />
       </BrowserRouter>
